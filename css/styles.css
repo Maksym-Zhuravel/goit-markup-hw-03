@@ -1,0 +1,193 @@
+:root {
+    --header-color: #000000;
+    --font-color: #212121;
+    --text-color: #757575;
+    --main-color: #FFFFFF;
+    --logo-color: #2196F3;
+    --footer-color: #2F303A;
+}
+
+body{
+  color: var(--font-color);
+  background-color: var(--main-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.marker{
+    list-style: none;
+}
+
+/* Header */
+
+.logo{
+    color: var(--header-color);
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.19;
+      
+}
+.logo-span{
+    color: var(--logo-color);
+}
+
+.header-nav .header-link{
+    color: var(--font-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.header-link:hover, 
+.header-link:focus{
+    color: var(--logo-color);
+}
+
+.header-nav .current{
+    color: var(--logo-color);
+}
+
+.contacts .contacts-link{
+color: var(--text-color);
+font-style: normal;
+text-decoration: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--logo-color);
+}
+
+/* MAIN SECTION */
+   
+     /* Hero */
+
+.hero-section{
+    background-color: var(--footer-color);
+}
+
+.hero-title{
+    color: var(--main-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    /* text-align: center; - temporalily comment */
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.hero-btn{
+    color: var(--main-color);
+    background-color: var(--logo-color);
+    border: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.90;
+    letter-spacing: 0.06em;
+}
+.hero-btn:hover,
+.hero-btn:focus{
+    color: var(--font-color);
+    background-color: var(--main-color);
+    cursor: pointer;
+}
+
+/* Company's softskills */
+
+.features-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.features .features-title{
+    font-size: 14px;
+    line-height: 1.14; 
+    text-transform: uppercase;
+}
+
+
+.features-text{
+    color: var(--text-color);
+    font-size: 14px;
+    line-height: 1.7px;
+}
+
+/* Company's activity */
+
+.activity-title{
+    color: var(--font-color);
+    font-size: 36px;
+    line-height: 1.16;
+}
+
+
+/* Company's team */
+
+.team .team-title{
+    color: var(--font-color);
+    font-size: 36px;
+    line-height: 1.16;
+}
+
+.team .team-role{
+    color: var(--text-color);
+    line-height: 1.19;
+}
+
+.team .team-member{
+    color: var(--font-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19px;
+}
+/* FOOTER */
+
+.footer {
+    background-color: var(--footer-color);
+}
+
+
+.footer-logo{
+    color: var(--main-color);
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+/* ADDRESS */
+
+
+.address .address-map{
+    color: var(--main-color);
+    font-style: normal;
+    text-decoration: none;
+}
+.address-map:hover,
+.address-map:focus{
+    color: var(--logo-color);
+}
+
+.address .address-link{
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    text-decoration: none;
+}
+.address-link:hover,
+.address-link:focus {
+    color: var(--logo-color);
+}
