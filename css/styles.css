@@ -20,24 +20,35 @@ h3,
 h4,
 h5,
 h6,
-ul,
-p{
-    margin-top: 0;
-    margin-bottom: 0;
-}
 
 .marker{
     list-style: none;
 }
 
 .container{
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    outline: 2px solid red;
-}
+width: 1200px;
+margin-left: auto;
+margin-right: auto;
+outline: 2px solid red;
+ }
 
 /* Header */
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.header-nav{
+    display: flex;
+    margin-left: 93px;
+    margin-right: 354px;
+}
+
+.contacts{
+    display: flex;
+}
+
 
 .logo{
     color: var(--header-color);
@@ -53,16 +64,19 @@ p{
 
 .header-nav .header-link{
     display: block;
-    padding-bottom: 32px;
-    padding-top: 32px;
-   
-   
+    margin-top: 30px;
+    margin-bottom: 30px;
+
     color: var(--font-color);
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+}
+
+.header-nav .header-list + .header-list{
+    margin-left: 50px;
 }
 
 
@@ -77,13 +91,6 @@ p{
 }
 
 
-.contacts{
-    display: flex;
-}
-
-.contacts .contacts-list + .contacts-list{
-    margin-left: 40px;
-}
 
 .contacts .contacts-link{
 color: var(--text-color);
@@ -95,10 +102,16 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 }
 
+.contacts .contacts-list + .contacts-list{
+        margin-left: 40px;
+}
+
 .contacts-link:hover,
 .contacts-link:focus {
     color: var(--logo-color);
 }
+
+
 
 /* MAIN SECTION */
    
