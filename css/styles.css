@@ -45,7 +45,6 @@ p{
     font-family: Raleway;
     font-size: 26px;
     line-height: 1.19;
-      
 }
 .logo-span{
     color: var(--logo-color);
@@ -53,6 +52,11 @@ p{
 
 
 .header-nav .header-link{
+    display: block;
+    padding-bottom: 32px;
+    padding-top: 32px;
+   
+   
     color: var(--font-color);
     text-decoration: none;
     font-weight: 500;
@@ -70,6 +74,15 @@ p{
 
 .header-nav .current{
     color: var(--logo-color);
+}
+
+
+.contacts{
+    display: flex;
+}
+
+.contacts .contacts-list + .contacts-list{
+    margin-left: 40px;
 }
 
 .contacts .contacts-link{
