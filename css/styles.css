@@ -14,8 +14,27 @@ body{
   letter-spacing: 0.03em;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .marker{
     list-style: none;
+}
+
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid red;
 }
 
 /* Header */
@@ -32,6 +51,7 @@ body{
     color: var(--logo-color);
 }
 
+
 .header-nav .header-link{
     color: var(--font-color);
     text-decoration: none;
@@ -40,9 +60,12 @@ body{
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+
+
 .header-link:hover, 
 .header-link:focus{
     color: var(--logo-color);
+
 }
 
 .header-nav .current{
@@ -70,6 +93,7 @@ letter-spacing: 0.02em;
 
 .hero-section{
     background-color: var(--footer-color);
+    text-align: center;
 }
 
 .hero-title{
@@ -77,9 +101,15 @@ letter-spacing: 0.02em;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    /* text-align: center; - temporalily comment */
     letter-spacing: 0.06em;
     text-transform: uppercase;
+
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+    padding-bottom: 30px;
+
 }
 .hero-btn{
     color: var(--main-color);
@@ -89,6 +119,7 @@ letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 1.90;
     letter-spacing: 0.06em;
+    margin-bottom: 200px;
 }
 .hero-btn:hover,
 .hero-btn:focus{
@@ -113,10 +144,21 @@ letter-spacing: 0.02em;
     overflow: hidden;
 }
 
+.features-list{
+    margin-bottom: 30px;
+}
+
+.features-section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+ 
 .features .features-title{
     font-size: 14px;
     line-height: 1.14; 
     text-transform: uppercase;
+    margin-bottom: 10px;
+
 }
 
 
