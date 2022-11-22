@@ -45,14 +45,17 @@ p {
   align-items: center;
 }
 
+.main-nav{
+  margin-left: 93px;
+}
+
 .header-nav {
   display: flex;
-  margin-left: 93px;
 }
 
 .contacts {
   display: flex;
-  margin-left: 354px;
+  margin-left: 344px;
 }
 
 .logo {
