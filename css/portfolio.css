@@ -9,6 +9,8 @@
 
 body {
   max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
   color: var(--main-color);
   background-color: var(--back2-color);
   font-family: Roboto, sans-serif;
@@ -43,10 +45,6 @@ p {
 .header {
   display: flex;
   align-items: center;
-}
-
-.main-nav{
-  margin-left: 93px;
 }
 
 .header-nav {
@@ -143,6 +141,14 @@ p {
   padding-bottom: 94px;
 }
 
+.main {
+  border-top: 1px solid #ececec;
+}
+
+.main-nav {
+  margin-left: 93px;
+}
+
 .buttons {
   display: flex;
   margin-bottom: 50px;
@@ -181,13 +187,11 @@ p {
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 30px;
-  padding-bottom: 94px;
 }
 
 .portfolio-list {
-  height: 404px;
-  left: 215px;
-  top: 262px;
+  padding-bottom: 20px;
+
   background: var(--back2-color);
   border: 1px solid #eeeeee;
 }
